@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: flask-app-config
+data:
+  FLASK_ENV: production
+  SECRET_KEY: c934dfb84282b103992924b3cb3a9b9b
